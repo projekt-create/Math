@@ -1,0 +1,165 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    background: #b1b1b1;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input{
+    width: 160px;
+    height: 30px;
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #646464;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+}
+
+.submit{
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #646464;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.walking{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.walking_svg{
+    width: 80px;
+    height: 80px;
+    fill: black;
+}
+
+.walking_text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bicycle{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bicycle_svg{
+    width: 80px;
+    height: 80px;
+    fill: black;
+}
+
+.bicycle_text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.car{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car_svg{
+    width: 80px;
+    height: 80px;
+    fill: black;
+}
+
+.car_text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.plan{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan_svg{
+    width: 80px;
+    height: 80px;
+    fill: black;
+}
+
+.plan_text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
