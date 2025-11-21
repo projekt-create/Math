@@ -26,4 +26,6 @@ Form.addEventListener('submit', (e) => {
     bicycle.innerHTML = `${(distance / bicycleSpeed).toFixed(2)} soat`;
     car.innerHTML = `${(distance / carSpeed).toFixed(2)} soat`;
     plan.innerHTML = `${(distance / planeSpeed).toFixed(2)} soat`;
+
+    Input.value = '';
 });
